@@ -46,7 +46,7 @@ fig, ax = plt.subplots(figsize=(12, 8))
 
 # # Set background color
 # fig.patch.set_facecolor('#F2F9F9')
-# ax.set_facecolor('#F2F9F9')
+# tax.set_facecolor('#F2F9F9')
 
 # Plot GPR
 ax.plot(years, gpr_projections, label='Global Payments', marker='o', color='blue', linewidth=2)
